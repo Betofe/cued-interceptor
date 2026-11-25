@@ -202,7 +202,7 @@ On a real aircraft, ArduPilot's own battery failsafe (the `BATT_*` parameters) r
 - [x] MAVSDK connection and concurrent telemetry
 - [x] Scripted takeoff, go-to and return home
 - [x] Battery decision logic with unit tests
-- [ ] Supervisor loop with a fake drone for tests
+- [x] Supervisor loop with a fake drone for tests
 - [ ] Stale-position detection
 - [ ] Mission state machine and logging
 - [ ] Guidance toward a moving target
