@@ -31,3 +31,7 @@ def test_battery_at_9():
 
 def test_empty_battery():
     assert battery_action(0) == Status.LAND
+
+
+def test_unknown_battery_is_unknown():
+    assert battery_action(float("nan")) == Status.UNKNOWN
